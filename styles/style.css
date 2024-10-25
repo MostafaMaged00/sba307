@@ -1,0 +1,42 @@
+body{
+    background-color: aliceblue;
+    color: rgba(17, 16, 16, 0.856);
+}
+#div-header{
+    background-color: rgb(30, 129, 30);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10PX 25px ;
+    
+
+}
+nav{
+    color: rgba(17, 16, 16, 0.856);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5PX 25px ;
+   
+}
+#links{
+    float: right;
+    text-decoration: none;
+}
+
+
+#div-copyright{
+    padding: 10px;
+    background-color: rgb(10, 98, 10);
+    color: white;
+    text-align: center;
+     
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
