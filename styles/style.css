@@ -1,12 +1,23 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+
+body {
     background-color: aliceblue;
+
     color: rgba(17, 16, 16, 0.856);
 }
 
 /* nav bar style */
 .nav-bar {
     text-decoration: none;
-    background-color: rgb(42, 155, 13);
+    background-color: rgb(15, 103, 59);
     font-family: calibri;
     padding-right: 20px;
     padding-left: 20px;
@@ -24,11 +35,12 @@ body{
     font-weight: bold;
     color: white;
 }
-.logo img{
+
+.logo img {
     width: 30px;
     height: 30px;
     margin-top: 5px;
-      
+
 }
 
 .logo a {
@@ -44,63 +56,271 @@ li {
     display: inline-block;
 }
 
- li a {
+li a {
     color: white;
     font-size: 25px;
     font-weight: bold;
     margin-right: 25px;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: rgb(70, 100, 206);
 }
+
 /* nav bar style */
 
-.intro{
 
-    padding: 25px 25px;
+.main-title {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.main {
+    /* background-color: hsl(0, 32%, 66%); */
+    margin-top: 25px;
+    width: 80%;
+    display: block;
+
+}
+
+.main-cont {
     display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-}
-.intro img{
+    margin-top: 10px;
 
-    margin-top: 50px;
-   
-    margin-right: 100px;
-    border-radius: 50px;
-    width: 500px;
-    height: 300px;
-    box-shadow: 5px 5px 0px rgb(123, 113, 113);
- 
+
 }
 
-.contact{
-    padding: 50px;
-    border: 1px;
+.main-card {
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.main img {
+    width: 300px;
     height: 200px;
-    background-color: rgb(237, 234, 240);
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 3px 3px 0px rgb(222, 213, 213);
+}
+
+
+/* Reach  */
+.reach {
+    width: 100%;
+    background-color: #90baad;
+    height: 250px;
+    display: flex;
+    padding-left: 300px;
+    padding-right: 500px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.reach h4 {
+
+    color: white;
+    font-size: 40px;
+    align-items: center;
+}
+
+.reach p {
+
+    color: white;
+    align-items: center;
+}
+
+.reach-btn {
+    border: 2px solid white;
+    padding: 20px;
+    color: white;
+    border-radius: 25px;
+}
+
+.reach-btn:hover {
+    background-color: white;
+    color: #90baad;
+    cursor:pointer;
+}
+
+
+
+/*  End of Reach*/
+
+/* Cards */
+
+section {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
+section .cards {
+    display: flex;
+}
 
-#div-copyright{
-    padding: 10px;
-    background-color: rgb(10, 98, 10);
-    color: white;
+section .cards .text-cards {
+    background-color: #c2e1c6;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+section .cards .text-cards h3 {
+
+    font-size: 30px;
     text-align: center;
-     
+    text-transform: uppercase;
+    margin-bottom: 5px;
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+
+section .text-card-icon{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(60, 112, 56);
+}
+
+/* End of Cards */
+
+.contact {
+    border: thin solid black;
+    padding: 50px;
+    border: 1px;
+    background-color: rgb(237, 234, 240);
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
+
+/* scribe */
+.scribe {
+
     width: 100%;
-    background-color: red;
+    background-color: rgb(15, 103, 59);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.scribe-email input {
+    width: 400px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.scribe-btn {
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
     color: white;
+    border-radius: 15px;
+    margin:50px;
+}
+
+.scribe-btn:hover {
+    background-color: white;
+    color: #90baad;
+    cursor:pointer;
+}
+
+/* End of scribe */
+
+/* Footer */
+footer {
+
+    background-color: #90baad;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 70px;
+
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-social a {
+    text-decoration: none;
+    padding: 10px;
+    /* background-color: #A1E5AB; */
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.footer-social a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+
+}
+
+.footer-social a:hover {
+    background-color: #8aa2a9;
+    transition: 0.5s;
+}
+
+.footer-nav {
+    margin: 30px 0;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.footer-nav ul a {
+
+    color: rgb(15, 103, 59);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.4em;
+    list-style: none;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-nav ul a:hover {
+    opacity: 1;
+}
+
+.footer-cpright {
+    color: white;
+    background-color: rgb(15, 103, 59);
+    padding: 20px;
     text-align: center;
-  }
+
+}
+
+@media(max-width: 700px) {
+    .footer-nav ul {
+        flex-direction: column;
+    }
+
+    .footer-nav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+
+    }
+}
+
+/* End of Footer */
