@@ -3,60 +3,93 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/style.css">
-    <title>Contact Demian Tax Company, Accounting Firm</title>
+    <title>Tax</title>
 </head>
 
 
 <body>
-    <header>
-        <h1>Demian Tax</h1>
-        <hr>
-        <nav>
-          <a href="index.html">          
-            <img src="/images/DemianTaxLogo.JPG" width="100" height="100" alt=""> 
-          </a>
-           <a href="index.html">Home</a>|<a href="about.html">About</a>|<a href="contact.html">Contact</a>
-        </nav>
-        
-    </header>
-    <hr>
+    <!-- Nav -->
+
+    <!-- End of Nav -->
     <!-- End of Header -->
-    <h1>Snap, Scan, or Fax!
-        Express Service Request Available</h1>
-    <hr>
-    <h2>Schedule Your Appointment: >> <a href="mailto: name@email.com">Click Here</a></h2>
-    <p>Other options available:
+     <div class="cont-title">
+    <h1>
+        
+        Tell Us About Your Accounting, Tax, and Financial Needs
+    </h1>
+    </div>
+    <div class="main">
+        
 
-        Call Cranford: (551) 344-3252 or East Brunswick (551) 344-3251
-        Fill out the form below to get started today!
-    </p>
-    <form action="">
-
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <br>
-        <label for="serv-drop">Service</label>
-        <select id="serv-drop" name="service">
-            <option value="express">Express Service</option>
-            <option value="remomte">Remote Service</option>
-            <option value="quick">Quickbooks / Bookkeeping</option>
-        </select>
-        <br>
-        <input type="submit" value="Submit">
+        <div class="main-form">
 
 
-    </form>
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <br>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+             
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email..">
+             
+                <label for="phone">Phone</label>
+                <input type="phone" id="phone" name="phone" placeholder="Your phone..">
+               
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:120px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="main-image">
+
+            <img class="cont-img" src="images/Contact-Us.jpg" alt="">
+        </div>
+
+
+
+    </div>
+
+    <div class="cont-stat">
+        <h2>
+            <i class="fa-solid fa-handshake"></i>
+            250+ clients served in over 25 different states
+        </h2>
+    </div>
+
+
+
+
 
     <!-- Footer Section -->
-    <footer class="footer">
-        <div id="div-copyright">
-            © All Rights Reserved | Most of the web, CPA Website Design & SEO | 2024
+    <footer>
+        <div class="footer-container">
+            <div class="footer-social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-x"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">FAQs</a></li>
+                </ul>
+            </div>
+
         </div>
     </footer>
+    <div class="footer-cpright">
+        <p>Copyright &copy;2024 | Designed by M-design</p>
+    </div>
+
 </body>
 
 </html>
