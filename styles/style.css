@@ -95,6 +95,7 @@ a:hover {
 
 
 .main-title {
+    color: #037048;
     display: block;
     text-align: center;
     margin-top: 25px;
@@ -132,6 +133,20 @@ a:hover {
     box-shadow: 3px 3px 0px rgb(222, 213, 213);
 }
 
+.act-btn{
+
+    margin-top: 15px;
+    border: 1px solid rgb(145, 133, 133);
+    padding: 10px;
+    color: rgb(58, 55, 55);
+    border-radius: 25px;
+    width: 10%;
+    text-align: center;
+}
+.act-btn:hover{
+    background-color: rgb(51, 49, 49);
+    color:white;
+}
 
 /* Reach  */
 .reach {
@@ -196,6 +211,7 @@ section .cards .text-cards {
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
+    height: 250px;
 }
 
 section .cards .text-cards h3 {
@@ -357,15 +373,16 @@ footer {
     margin: 20px;
     color: green;
 }
-.main{
-
- 
+.contact-main{
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: auto;
 }
-.main-form{
+.form-main{
+    color:rgb(14, 12, 12);
+    font-size: 18px;
     border: 1px solid black;
     background-color: #90baad;
     width: 50%;
@@ -373,7 +390,7 @@ footer {
     padding: 20px;
    
 }
-.main-form input[type=text],input[type=email],
+.form-main input[type=text],input[type=email],
 input[type=phone],select,textarea{
     width: 100%;
     padding: 5px;
@@ -381,7 +398,7 @@ input[type=phone],select,textarea{
     margin-bottom: 5px;
 }
 
-.main-form input[type=submit]{
+.form-main input[type=submit]{
     width: 100%;
     background-color: #037048;
     color: white;
@@ -396,24 +413,24 @@ input[type=submit]:hover {
     color: #037048;;
   }
 
-.main-image{
+.image-form-main{
     border: 1px solid black;
     background-color: rgb(58, 199, 199);
     height: 500px;
     width: 50%;
 
 }
-.main-image img{
+.image-form-main img{
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     border-radius: 0px;
     flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    box-shadow: none;;
-    
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 
 .cont-stat{
@@ -422,3 +439,62 @@ input[type=submit]:hover {
     color: white;
     background-color: grey;
 }
+
+
+/* about page */
+.about-title {
+    color: #037048;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.about-container{
+
+    margin: auto;
+    width: 90%;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-cont-left{
+    /* border: 1px solid black; */
+    margin-right: 50px;
+    padding: 50px;
+    font-size: 18px;
+}
+.about-cont-right img{
+    width: 450px;
+}
+
+.about-phil-cont{
+    margin: auto;
+    width: 90%;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.about-phil-left img{
+    
+    margin-left: 50px;
+    width: 450px;
+    margin-bottom: 20px;
+
+}
+
+.about-phil-right{
+    /* border: 1px solid black; */
+    margin-right: 0px;
+    padding-left: 50px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* end about page */
