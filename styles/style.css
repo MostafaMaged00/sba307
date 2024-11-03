@@ -78,7 +78,9 @@ li {
     list-style: none;
     display: inline-block;
 }
-
+li a .fa{
+    margin-right: 10px;
+}
 li a {
     color: white;
     font-size: 25px;
@@ -540,3 +542,8 @@ h1{
 }
 
 /* End Business page */
+
+
+/* Ind Business page */
+
+/* End of Ind business page */
